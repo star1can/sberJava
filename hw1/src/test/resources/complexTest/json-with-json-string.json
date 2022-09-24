@@ -1,0 +1,8 @@
+{
+  "string"        : "string",
+  "integer"       : 3222,
+  "double"        : 1234.56,
+  "arrayDouble"   : [42.42, 666.66, 777.777, 888.888],
+  "arrayInteger"  : [1, 2, 3, 4, 5, 6, 7],
+  "jsonString"    : "{\"string\"        : \"string\", \"integer\"       : 3222, \"double\"        : 1234.56, \"arrayDouble\"   : [42.42, 666.66, 777.777, 888.888],  \"arrayInteger\"  : [1, 2, 3, 4, 5, 6, 7],  \"arrayString\"   : [\"a\", \"b\", \"{  \"string\"        : \"Dmitrii\",  \"integer\"       : 3222,  \"double\"        : 1234.56,  \"arrayDouble\"   : [42.42, 666.66, 777.777, 888.888],  \"arrayInteger\"  : [1, 2, 3, 4, 5, 6, 7]}\"]}"
+}
