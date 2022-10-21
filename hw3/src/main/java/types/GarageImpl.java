@@ -151,7 +151,7 @@ public class GarageImpl<T extends AbstractVehicle> implements Garage<T> {
     }
 
     @Override
-    public List<Object> upgradeCars(VehicleUpgrader upgrader) {
+    public <To extends AbstractVehicle> List<To> upgradeCars(VehicleUpgrader<T, To> upgrader) {
         return carsMap.values().stream().map(upgrader::upgrade).toList();
     }
 

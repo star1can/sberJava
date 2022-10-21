@@ -5,10 +5,9 @@ import types.interfaces.VehicleUpgrader;
 import types.vehicle.Car;
 import types.vehicle.Truck;
 
-public class CarToTruckUpgrader implements VehicleUpgrader {
+public class CarToTruckUpgrader implements VehicleUpgrader<Car, Truck> {
     @Override
-    public Object upgrade(Object vehicle) {
-        Vehicle car = (Vehicle) vehicle;
+    public Truck upgrade(Car car) {
         return new Truck(
                 car.id(),
                 car.brand(),

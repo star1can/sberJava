@@ -58,6 +58,6 @@ public interface Garage<T extends AbstractVehicle> {
 
     List<T> filterCars(Predicate<? super T> predicate);
 
-    List<Object> upgradeCars(VehicleUpgrader upgrader);
+    <To extends AbstractVehicle> List<To> upgradeCars(VehicleUpgrader<T, To> upgrader);
 }
 

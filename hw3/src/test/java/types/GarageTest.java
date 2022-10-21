@@ -370,7 +370,7 @@ public class GarageTest {
 
         var trucks = garage.upgradeCars(new CarToTruckUpgrader());
 
-        assertDoesNotThrow(() -> (Truck) trucks.get(0));
+        assertDoesNotThrow(() -> trucks.get(0));
     }
 
     @Test
